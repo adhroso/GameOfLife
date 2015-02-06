@@ -1,6 +1,10 @@
 # GameOfLife
 Simulation of game of life
 
+#Download at: 
+https: https://github.com/adhroso/GameOfLife.git
+or 
+git clone git@github.com:adhroso/GameOfLife.git
 
 Game of life simulation allows a user to create rules and observe different
 outcomes between predator and prey. In this simple simulation, we have very basic rules
