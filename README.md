@@ -19,11 +19,25 @@ in all locations). This generic implementation allows one to conduct biological 
 at molecular level (such as cellular functions) to environmental such as tracking the migration of 
 one or more species. Migration is currently is not supported as it is in the beta state 
 (see iteration() function for more information).
+User is allowed to interact with the simulation by clicking the space bar (once the simulation has started).
+When simulation is paused, user can click the C button from the keyboard to clear the 
+cells, or R to reset their states. In addition, user can modify the cell by clicking directly 
+on the cell, turning them off or on.
+
 Current implementation allows only two states, alive and dead. Future implementation should
 abstract the cell in order to support many features without modification of the code
-(such as illness...etc)
+(such as illness...etc).
  
 It is noteworthy to mention that this is a prototype and meant only as a proof of concept 
 and not be used in a production environment. 
 
 See original version Conway at: https://processing.org/examples/gameoflife.html
+
+#how to run
+0. Download or clone the repository from github
+1. unzip 
+2. Open Processing
+3. Via Processing, click open and navigate to the unzipped location.
+4. Select the game_of_life.pde and click open.
+5. Processing will warn you source file not being in a sketcher directory. Click OK.
+6. Click the run button
